@@ -1,0 +1,35 @@
+
+backend/
+.analyzer_history.json
+memory.json
+
+# -----------------------------
+# Environment & Secrets
+# -----------------------------
+.env
+backend/.env
+
+# -----------------------------
+# Python / Backend
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+
+# -----------------------------
+# OS Generated Files
+# -----------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
